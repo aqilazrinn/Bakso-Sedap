@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bakso Sedap</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>BAKSO SEDAP 🍜🔥</h1>
+    <p>Homemade | Panas-panas | Pasti Puas Hati!</p>
+  </header>
+
+  <div class="container">
+    <div class="menu-item">
+      <h3>1. Bakso Daging - RM6</h3>
+      <label>Jenis Mee:
+        <select id="mee1">
+          <option value="Mee">Mee</option>
+          <option value="Suhun">Suhun</option>
+          <option value="Bihun">Bihun</option>
+          <option value="Maggie">Maggie</option>
+        </select>
+      </label>
+      <br />
+      <label>Kuantiti: <input type="number" id="qty1" value="0" min="0" /></label>
+    </div>
+
+    <div class="menu-item">
+      <h3>2. Bakso Ayam - RM6</h3>
+      <label>Jenis Mee:
+        <select id="mee2">
+          <option value="Mee">Mee</option>
+          <option value="Suhun">Suhun</option>
+          <option value="Bihun">Bihun</option>
+          <option value="Maggie">Maggie</option>
+        </select>
+      </label>
+      <br />
+      <label>Kuantiti: <input type="number" id="qty2" value="0" min="0" /></label>
+    </div>
+
+    <div class="menu-item">
+      <h3>3. Bakso Mercun - RM10</h3>
+      <label>Jenis Mee:
+        <select id="mee3">
+          <option value="Mee">Mee</option>
+          <option value="Suhun">Suhun</option>
+          <option value="Bihun">Bihun</option>
+          <option value="Maggie">Maggie</option>
+        </select>
+      </label>
+      <br />
+      <label>Kuantiti: <input type="number" id="qty3" value="0" min="0" /></label>
+    </div>
+
+    <div class="menu-item">
+      <h3>4. Bakso Beranak - RM12</h3>
+      <label>Jenis Mee:
+        <select id="mee4">
+          <option value="Mee">Mee</option>
+          <option value="Suhun">Suhun</option>
+          <option value="Bihun">Bihun</option>
+          <option value="Maggie">Maggie</option>
+        </select>
+      </label>
+      <br />
+      <label>Kuantiti: <input type="number" id="qty4" value="0" min="0" /></label>
+    </div>
+
+    <button id="orderBtn" onclick="submitOrder()">🛒 Order Sekarang</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

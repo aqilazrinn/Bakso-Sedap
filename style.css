@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #ff5722, #ffc107);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+header {
+  background-color: #b71c1c;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.menu-item {
+  background: rgba(255,255,255,0.1);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  margin: 0;
+}
+
+.menu-item select, .menu-item input {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+#orderBtn {
+  background-color: #1b5e20;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+#orderBtn:hover {
+  background-color: #2e7d32;
+}
